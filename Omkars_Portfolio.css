@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+html {
+    height: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 20px;
+    border: 1px solid #2266e3;
+    box-shadow: inset 0px 0px 15px 0px #2266e3;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.navbar {
+    border: 1px solid #2266e3;
+    box-shadow: inset 0px 0px 10px 0px #2266e3;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.brand {
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.toggler-left {
+    position: absolute;
+    right: 10%;
+    top: 3%;
+    z-index: 2;
+}
+
+@media screen and (min-width: 768) {
+    .toggler-left {
+        position: absolute;
+        right: 5%;
+    }
+}
+
+
+.navbar-brand:hover {
+    color: black;
+}
+
+.navbar-nav .nav-link {
+    font-size: 0.775rem;
+    /* Adjust the size as needed (0.875rem = 14px) */
+}
+
+.nav-link {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    font-weight: normal;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    text-decoration-color: #2266e3;
+    text-decoration-thickness: 0.2rem;
+    color: black;
+    font-weight: 600;
+}
+
+.my-name {
+    color: #2266e3;
+}
+
+.section-title {
+    color: #2266e3;
+    text-decoration: underline;
+    text-decoration-color: #2266e3;
+    text-decoration-thickness: 0.2rem;
+    text-underline-offset: 0.4rem;
+}
+
+.about-name {
+    color: #2266e3;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 760px) {
+    .education-text {
+        font-size: 1.1rem;
+    }
+}
+
+
+.skill_bar {
+    padding: 3px;
+}
+
+.degree_per {
+    width: 83%;
+}
+
+.inter_per {
+    width: 83%;
+}
+
+.ssc_per {
+    width: 80%;
+}
+
+.java_per {
+    width: 85%;
+}
+
+.sql_per {
+    width: 75%;
+}
+
+.spring_boot_per {
+    width: 75%;
+}
+
+.js_per {
+    width: 70%;
+}
+
+.react_per {
+    width: 70%;
+}
+
+.bootstrap_per {
+    width: 70%;
+}
+
+.project-a {
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.project-img {
+    /* transition: transform 0.3s ease; */
+}
+
+.project-a:hover {
+    transform: scale(1.08);
+}
+
+.project-name {
+    font-size: 1rem;
+}
+
+.skill-container {
+    border: 1px solid #c7cdd6;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    background-color: white;
+    box-shadow: 2px 1.5px 2px 1px;
+}
+
+.project-border {
+    border-bottom: 1px solid #2266e3;
+    box-shadow: 0px 1px 10px #2266e3;
+    border-radius: 0.5rem;
+    background-color: white;
+}
+
+.container {
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-12,
+.col-md-6,
+.col-lg-4 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
